@@ -1,0 +1,39 @@
+body{
+    padding:0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#filter{
+    background-color: rgb(166, 167, 173);
+    color:rgb(27, 26, 26);
+    border: none;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#budget{
+    display: flex;
+    width: 100px;
+}
+
+#budgetText{
+    width:100px
+}
+
+#products{
+    background-color: rgb(92, 108, 121);
+    color: rgb(15, 15, 15);
+    width: 80%;
+    height:100%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}

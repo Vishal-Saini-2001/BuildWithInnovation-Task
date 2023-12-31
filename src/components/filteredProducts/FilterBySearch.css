@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    border:'1px solid black';
+    max-width:'100%';
+    font-size: small;
+    transition: all 0.4s ease;
+}
+
+.card:hover{
+    background-color: rgba(155, 202, 229, 0.543);
+    box-shadow: 4px 4px 12px black;
+    border: none;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    max-width:250px ;
+}
+
+.btn{
+    font-size: smaller;
+}
+
